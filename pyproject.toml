@@ -1,0 +1,18 @@
+[project]
+name = "pedidos-quebrados"
+version = "0.4.0"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+extend-exclude = ["praticas/cap1"]
+
+[tool.ruff.lint]
+select = ["E", "F", "B"]
+
+[tool.mypy]
+python_version = "3.12"
+exclude = ["praticas/cap1"]
