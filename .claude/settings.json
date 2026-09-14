@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(/tests/**)",
+      "Edit(/praticas/cap5/test_parcelas.py)"
+    ]
+  }
+}
